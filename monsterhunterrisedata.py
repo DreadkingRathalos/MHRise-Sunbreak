@@ -4,7 +4,7 @@ if(Selection in 'Monsters'):
     print('Welcome, what monster class are you looking for?')
     Monster_Class=input('Flying Wyvern, Fanged Wyvern, Brute Wyvern, Bird Wyvern, Piscine Wyvern, Levianths, Fanged Beasts, Amphians, Carapaceons, Elder Dragons, Other')
     if(Monster_Class == 'Flying Wyvern'or Monster_Class in 'Flying'):
-        Monster=input('Rathian, Rathalos, Basrios,Khezu, Nargacuga, Tigrex, Diablos, Barioth, Bazelgeuse, Espinas')
+        Monster=input('Rathian, Rathalos, Basrios, Khezu, Nargacuga, Tigrex, Diablos, Barioth, Bazelgeuse, Espinas')
         if(Monster == 'Rathian'):
                 Apex=input('Base, Apex')
                 if(Apex == 'Base'):
@@ -51,8 +51,10 @@ if(Selection in 'Monsters'):
             Variant=input('Base, Seething')
             if(Variant == 'Base'):
                 print('Monster: Bazelgeuse, Elements: Fire, Aliments: Fireblight, Weaknesses: Thunder, Breakable Parts: Head, Wings, and tail')
+                print('Rare Materials: Bazelgeuse Gem, Bazelgeuse Mantle')
             if(Variant == 'Seething'):
                 print('Monster: Seething Bazelgeuse, Elements: Fire, Aliments: Fireblight, Weaknesses: Ice, Breakable Parts: Head, Wings, and tail')
+                print('Rare Materials: Bazelgeuse Mantle')
         if(Monster == 'Espinas'):
                 print('Monster: Espinas, Elements: Fire, Aliments: Fireblight, Poison, Paralysis, Weaknesses: Ice, Breakable Parts: Head, Back, Belly, Wings, and tail')
         if(Monster == 'Seregios'):
@@ -87,6 +89,7 @@ if(Selection in 'Monsters'):
         Monster=input('Barroth, Anjanath')
         if(Monster == 'Barroth'):
                 print('Monster: Barroth, Elements: Water, Aliments: Waterblight, Muddy, Weaknesses: Water(Mud) Fire(No Mud), Breakable Parts: Head, Back, Arms, and tail')
+                print('Rare Materials: Wyvern Gem, Large Wyvern Gem')
         if(Monster == 'Anjanath'):
                 print('Monster: Anjanath, Elements: Fire, Aliments: Fireblight, Weaknesses: Water, Breakable Parts: Head, Legs, and tail')
                 print('Rare Materials: Anjanath Plate, Anjanath Gem, Anjanath Mantle')
@@ -128,10 +131,13 @@ if(Selection in 'Monsters'):
             Subspecies=input('Base or Aurora')
             if(Subspecies == 'Base'):
                 print('Monster: Somnacanth, Elements: None, Aliments: Sleep, Weaknesses: Thunder, Breakable Parts: Head, Arms, and tail')
+                print('Rare Materials: Wyvern Gem, Large Wyvern Gem')
             if(Subspecies == 'Aurora'):
                 print('Monster: Aurora Somnacanth, Elements: Ice, Aliments: Iceblight, Weaknesses: Fire, Breakable Parts: Head, Arms, and tail')
+                print('Rare Materials: Wyvern Gem, Large Wyvern Gem')
         if(Monster == 'Royal Ludroth'):
             print('Monster: Royal Ludroth, Elements: Water, Aliments: Waterblight, Weaknesses: Fire, Breakable Parts: Head, Creat, and tail')
+            print('Rare Materials: Wyvern Gem, Large Wyvern Gem')
         if(Monster == 'Almudron'):
             Subspecies=input('Base or Magma')
             if(Subspecies == 'Base'):
@@ -175,6 +181,7 @@ if(Selection in 'Monsters'):
             print('Rare Materials: Beast Gem, Large Beast Gem')
         if(Monster == 'Garangolm'):
             print('Monster: Garangolm, Elements: , Aliments: , Weaknesses: Thunder, Breakable Parts: Head, and Arms')
+            print('Rare Materials: Large Beast Gem')
     if(Monster_Class == 'Amphians'):
         Monster=input('Tetradon')
         if(Monster == 'Tetradon'):
@@ -222,6 +229,7 @@ if(Selection in 'Monsters'):
                 print('Monster: Shaguru Magala, Elements: None, Aliments: Frenzy, Weaknesses: Dragon, Breakable Parts: Head, Wingarms, and tail')
         if(Monster == 'Malzeno'):
                 print('Monster: Malzeno, Elements: Dragon, Aliments: Dragonblight, Bloodblight, Weaknesses: Dragon, Breakable Parts: Head, Wings, and tail')
+                print('Rare Materials: Malzeno Bloodstone')
         if(Monster == 'Gaismagorm'):
                 print('Monster: Gaismagorm, Elements: None, Aliments: Quiro, Weaknesses: Dragon, Breakable Parts: Head, Wings, and tail')
     if(Monster_Class == 'Others'):
