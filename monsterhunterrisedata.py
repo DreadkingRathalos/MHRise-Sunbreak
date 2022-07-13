@@ -4,7 +4,7 @@ if(Selection in 'Monsters'):
     print('Welcome, what monster class are you looking for?')
     Monster_Class=input('Flying Wyvern, Fanged Wyvern, Brute Wyvern, Bird Wyvern, Piscine Wyvern, Levianths, Fanged Beasts, Amphians, Carapaceons, Elder Dragons, Other')
     if(Monster_Class == 'Flying Wyvern'or Monster_Class in 'Flying'):
-        Monster=input('Rathian, Rathalos, Basrios, Khezu, Nargacuga, Tigrex, Diablos, Barioth, Bazelgeuse, Espinas')
+        Monster=input('Rathian, Rathalos, Basrios, Khezu, Nargacuga, Tigrex, Diablos, Barioth, Bazelgeuse, Espinas, Astalos')
         if(Monster == 'Rathian'):
                 Apex=input('Base, Apex')
                 if(Apex == 'Base'):
@@ -142,8 +142,10 @@ if(Selection in 'Monsters'):
             Subspecies=input('Base or Magma')
             if(Subspecies == 'Base'):
                 print('Monster: Almudron, Elements: Water, Aliments: Waterblight, Muddy, Weaknesses: Fire, Breakable Parts: Head, Back, and tail')
+                print('Rare Materials: Almudron Plate, Golden Almudron Orb, Almudron Mantle')
             if(Subspecies == 'Magma'):
                 print('Monster: Magma Almudron, Elements: Fire, Aliments: Fireblight, Weaknesses: Water, Breakable Parts: Head, Back, and tail')
+                print('Rare Materials: Magmadron Mantle')
     if(Monster_Class == 'Fanged Beasts'or Monster_Class in 'Beasts'):
         Monster=input('Rajang, Bishaten, Arzuros, Lagombi, Volvidon, Goss Harag')
         if(Monster == 'Rajang'):
@@ -221,17 +223,19 @@ if(Selection in 'Monsters'):
                 print('Rare Materials: Rathian Plate, Rathian Ruby, Rathian Mantle')
             if(Variant == 'Allmother Narwa'):
                 print('Monster: Narwa the Allmother, Elements: Thunder, Aliments: Thunderblight, Weaknesses: Dragon, Breakable Parts: Head, Wings, and tail')
-                print('Rare Materials: Rathian Plate, Rathian Ruby, Rathian Mantle')
+                print('Rare Materials: Orb of Orgin, Mantle of Orgin')
         if(Monster == 'Crimson Glow Valstrax' or Monster in 'Valstrax'):
             print('Monster: Crimson Glow Valstrax, Elements: Dragon, Aliments: Dragonblight, Weaknesses: Fire/Water/Thunder/Ice, Breakable Parts: Head, Wings, Back and tail')
             print('Rare Materials: Valstrax Gem, Valstrax Mantle')
         if(Monster == 'Shaguru Magala' or Monster in 'Shaguru'):
                 print('Monster: Shaguru Magala, Elements: None, Aliments: Frenzy, Weaknesses: Dragon, Breakable Parts: Head, Wingarms, and tail')
+                print('Rare Materials: Shaguru Mantle')
         if(Monster == 'Malzeno'):
                 print('Monster: Malzeno, Elements: Dragon, Aliments: Dragonblight, Bloodblight, Weaknesses: Dragon, Breakable Parts: Head, Wings, and tail')
                 print('Rare Materials: Malzeno Bloodstone')
         if(Monster == 'Gaismagorm'):
                 print('Monster: Gaismagorm, Elements: None, Aliments: Quiro, Weaknesses: Dragon, Breakable Parts: Head, Wings, and tail')
+                print('Rare Materials: Abyssal Dragonspire')
     if(Monster_Class == 'Others'):
         Monster=input('Gore Magala')
         if(Monster == 'Gore Magala'):
@@ -291,7 +295,7 @@ if(Selection in 'Weapons'):
                 print('Weapon: Gunlance')
                 print('A weapon designed with Heavy, Powerful Swings with three charges.')
                 print('Important Skills')
-                print('Guard, Guard up, Offensive Guard, Artillery, Razor Sharp')
+                print('Guard, Artillery, Evade Extender, Load Shells, Razor Sharp, Attack Boost Speed Sharpening, Flinch Free')
                 print('Introduced in Monster Hunter 2')
       if(Weapon == 'Insect Glaive' or Weapon.lower == 'IG'):
                 print('Weapon: Insect Glaive')
